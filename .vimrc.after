@@ -20,3 +20,4 @@ else
   set background=dark
   colorscheme monokai
 endif
+let g:syntastic_python_flake8_post_args=' --max-line-length=99'
